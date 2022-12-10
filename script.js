@@ -13,6 +13,10 @@ let reCriminals = /C+/;
 // let lastRegex = /caboose$/;
 // let result = lastRegex.test(caboose);
 //Match All Letters and Numbers
+// let quoteSample = "The five boxing wizards jump quickly.";
+// let alphabetRegexV2 = /\w/g;
+// let result = quoteSample.match(alphabetRegexV2).length;
+//Match Everything But Letters and Numbers
 let quoteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /\w/g;
-let result = quoteSample.match(alphabetRegexV2).length;
+let nonAlphabetRegex = /\W/g;
+let result = quoteSample.match(nonAlphabetRegex).length;
