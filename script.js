@@ -25,6 +25,10 @@ let reCriminals = /C+/;
 // let numRegex = /\d/g;
 // let result = movieName.match(numRegex).length;
 //Match All Non-Numbers
-let movieName = "2001: A Space Odyssey";
-let noNumRegex = /\D/g;
-let result = movieName.match(noNumRegex).length;
+// let movieName = "2001: A Space Odyssey";
+// let noNumRegex = /\D/g;
+// let result = movieName.match(noNumRegex).length;
+//Restrict Possible Usernames
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+let result = userCheck.test(username);
