@@ -119,3 +119,12 @@ if (x === y) {
 }
 
 console.log(resultc);
+//Catch Missing Open and Closing Parenthesis After a Function Call
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let results = getNine();
+console.log(results);
