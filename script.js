@@ -77,3 +77,10 @@ let result9 = str.replace(fixRegex, replaceText);
 let hello = "   Hello, World!  ";
 let wsRegex = /^\s+|\s+$/g;
 let result10 = hello.replace(wsRegex, "");
+//
+let a = 5;
+let b = 1;
+a++;
+console.log(a);
+let sumAB = a + b;
+console.log(sumAB);
