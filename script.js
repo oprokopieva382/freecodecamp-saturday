@@ -21,6 +21,10 @@ let reCriminals = /C+/;
 // let nonAlphabetRegex = /\W/g;
 // let result = quoteSample.match(nonAlphabetRegex).length;
 //Match All Numbers
+// let movieName = "2001: A Space Odyssey";
+// let numRegex = /\d/g;
+// let result = movieName.match(numRegex).length;
+//Match All Non-Numbers
 let movieName = "2001: A Space Odyssey";
-let numRegex = /\d/g;
-let result = movieName.match(numRegex).length;
+let noNumRegex = /\D/g;
+let result = movieName.match(noNumRegex).length;
