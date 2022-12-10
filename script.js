@@ -29,6 +29,10 @@ let reCriminals = /C+/;
 // let noNumRegex = /\D/g;
 // let result = movieName.match(noNumRegex).length;
 //Restrict Possible Usernames
-let username = "JackOfAllTrades";
-let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
-let result = userCheck.test(username);
+// let username = "JackOfAllTrades";
+// let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+// let result = userCheck.test(username);
+//Match Whitespace
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g;
+let result = sample.match(countWhiteSpace);
