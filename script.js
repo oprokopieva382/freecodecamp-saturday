@@ -33,6 +33,10 @@ let reCriminals = /C+/;
 // let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
 // let result = userCheck.test(username);
 //Match Whitespace
+// let sample = "Whitespace is important in separating words";
+// let countWhiteSpace = /\s/g;
+// let result = sample.match(countWhiteSpace);
+//Match Non-Whitespace Characters
 let sample = "Whitespace is important in separating words";
-let countWhiteSpace = /\s/g;
-let result = sample.match(countWhiteSpace);
+let countNonWhiteSpace = /\S/g;
+let result = sample.match(countNonWhiteSpace);
