@@ -17,6 +17,10 @@ let reCriminals = /C+/;
 // let alphabetRegexV2 = /\w/g;
 // let result = quoteSample.match(alphabetRegexV2).length;
 //Match Everything But Letters and Numbers
-let quoteSample = "The five boxing wizards jump quickly.";
-let nonAlphabetRegex = /\W/g;
-let result = quoteSample.match(nonAlphabetRegex).length;
+// let quoteSample = "The five boxing wizards jump quickly.";
+// let nonAlphabetRegex = /\W/g;
+// let result = quoteSample.match(nonAlphabetRegex).length;
+//Match All Numbers
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g;
+let result = movieName.match(numRegex).length;
