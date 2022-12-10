@@ -40,3 +40,7 @@ let reCriminals = /C+/;
 let sample = "Whitespace is important in separating words";
 let countNonWhiteSpace = /\S/g;
 let result = sample.match(countNonWhiteSpace);
+//Specify Upper and Lower Number of Matches
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6}\sno/;
+let result2 = ohRegex.test(ohStr);
