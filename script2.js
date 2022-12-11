@@ -59,5 +59,9 @@ function spreadOut() {
   let sentence = ["learning", ...fragment, "is", "fun"];
   return sentence;
 }
-
 console.log(spreadOut());
+//
+function quickCheck(arr, elem) {
+  return arr.indexOf(elem) >= 0 ? true : false;
+}
+console.log(quickCheck(["squash", "onions", "shallots"], "mushrooms"));
